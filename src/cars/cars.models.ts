@@ -1,1 +1,5 @@
-export type Car = string[];
+export type Car = {
+  id: number;
+  brand: string;
+  model: string;
+};
